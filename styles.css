@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #aca7cb;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: .1rem;
+
+  padding: 12px 12px;
+  background: #fff;
+  border-radius: 7px;
+}
+
+.row2 {
+    align-items: center;
+    padding: 12px 12px;
+    background: #c7ede0;
+    border-radius: 7px;
+}
+
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1.5px solid rgb(223, 220, 220);
+  /* box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36); */
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 5px;
+  background: #e5e5e5;
+  padding: 0.8rem 1rem;
+  color: #39574e;
+  text-align: center;
+  cursor: grab;
+  font-size: .8rem;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  color: #39574e;
+  background: #c7ede0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.progress {
+  color: #39574e;
+  background: #c7ede0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.done {
+    color: #39574e;
+  background: #c7ede0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.start, .progress, .done {
+    text-align: center;
+}
+
+.hold {
+    box-shadow: 6px 6px 14px 10px rgba(198, 198, 198, 0.36);
+    opacity: .9;
+}
+
+.hide {
+    display: none;
+}
+
+.hover {
+    border: 2px dotted gray;
+    border-radius: 5px;
+    background-image: url('https://iconarchive.com/download/i95384/iconsmind/outline/Add.ico');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    opacity: .2;
+}
+
